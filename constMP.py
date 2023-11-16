@@ -5,7 +5,7 @@
 
 # With public addresses (in the same region of the cloud)
 # The last one is not fixed and must be changed each time the lab is restarted.
-PEERS_SAME_REGION = ["100.25.72.80", "23.23.123.132", "34.235.105.7", "50.17.58.135", "54.209.66.27", "54.144.141.73"]
+PEERS_SAME_REGION = ["100.25.72.80", "23.23.123.132", "34.235.105.7", "50.17.58.135", "54.209.66.27", "34.229.70.145"]
 
 # With public addresses (in two separate regions - last two servers in Oregon)
 PEERS_TWO_REGIONS = ["100.25.72.80", "23.23.123.132", "34.235.105.7", "50.17.58.135",  "52.25.8.115", "52.41.8.222"]
@@ -14,6 +14,6 @@ PEERS_TWO_REGIONS = ["100.25.72.80", "23.23.123.132", "34.235.105.7", "50.17.58.
 PEER_UDP_PORT = 4567
 PEER_TCP_PORT = 5679
 N = 6   # Number of peers
-SERVER_ADDR ='54.144.141.73'
+SERVER_ADDR ='34.229.70.145'
 SERVER_PORT = 5678
 
